@@ -165,12 +165,12 @@ const ColorPickerPage = () => {
   };
 
   return (
-    <div>
-      <h1>
+    <div className="container">
+      <div className="h1">
         kakaotalk.theme simulator
         <p className="twitter-link" onClick={() => window.open('https://x.com/3DA_theme')}>@3DA_theme</p>
-      </h1>
-      <div className="main-container">
+      </div>
+      <div className="content-container">
         <div className="main-pickers">
           <div>
             <div 
