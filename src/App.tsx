@@ -462,7 +462,7 @@ const ColorPickerPage = () => {
         </div>
         <div className="settings">
           <div className="setting">
-            <div>
+            <div style={{position: 'relative'}}>
               <div 
               onClick={() => setLinePicker(!linePicker)} 
               className="setting-row">
@@ -478,7 +478,7 @@ const ColorPickerPage = () => {
               )}
             </div>
             
-            <div>
+            <div style={{position: 'relative'}}>
               <div 
                 onClick={() => setIconPicker(!iconPicker)} 
                 className="setting-row">
@@ -507,7 +507,7 @@ const ColorPickerPage = () => {
           </div>
 
           <div className="setting">
-            <div>
+            <div style={{position: 'relative'}}>
               <div 
                   onClick={() => setPassBgPicker(!passBgPicker)} 
                   className="setting-row">
@@ -522,7 +522,7 @@ const ColorPickerPage = () => {
                 </div>
               )}
             </div>
-            <div>
+            <div style={{position: 'relative'}}>
               <div 
                 onClick={() => setPasscodePicker(!passcodePicker)} 
                 className="setting-row">
@@ -540,7 +540,7 @@ const ColorPickerPage = () => {
           </div>
 
           <div className="setting">
-            <div>
+            <div style={{position: 'relative'}}>
               <div
                 onClick={() => setChatBgPicker(!chatBgPicker)}  
                 className="setting-row">
@@ -555,7 +555,7 @@ const ColorPickerPage = () => {
                 </div>
               )}
             </div>
-            <div>
+            <div style={{position: 'relative'}}>
               <div 
               onClick={() => setChatInputPicker(!chatInputPicker)} 
               className="setting-row">
@@ -570,7 +570,7 @@ const ColorPickerPage = () => {
                 </div>
               )}
             </div>
-            <div>
+            <div style={{position: 'relative'}}>
               <div
                 onClick={() => setChatButtonPicker(!chatButtonPicker)}
                 className="setting-row">
@@ -590,7 +590,7 @@ const ColorPickerPage = () => {
               <div className="setting-row half">{`<내 말풍선>`}</div>
             </div>
             <div className="setting-row">
-              <div>
+              <div style={{position: 'relative'}}>
                 <div 
                   onClick={() => setBubbleYouPicker(!bubbleYouPicker)} 
                   className="setting-row half">
@@ -605,7 +605,7 @@ const ColorPickerPage = () => {
                   </div>
                 )}
               </div>
-              <div>
+              <div style={{position: 'relative'}}>
                 <div
                   onClick={() => setBubbleMePicker(!bubbleMePicker)}  
                   className="setting-row half">
@@ -623,7 +623,7 @@ const ColorPickerPage = () => {
               
             </div>
             <div className="setting-row">
-              <div>
+              <div style={{position: 'relative'}}>
                 <div
                   onClick={() => setBubbleYouBorderPicker(!bubbleYouBorderPicker)}  
                   className="setting-row half">
@@ -638,7 +638,7 @@ const ColorPickerPage = () => {
                     </div>
                   )}
               </div>
-              <div>
+              <div style={{position: 'relative'}}>
                 <div
                   onClick={() => setBubbleMeBorderPicker(!bubbleMeBorderPicker)}  
                   className="setting-row half">
@@ -655,7 +655,7 @@ const ColorPickerPage = () => {
               </div>
             </div>
             <div className="setting-row">
-              <div>
+              <div style={{position: 'relative'}}>
                 <div
                   onClick={() => setBubbleYouTextPicker(!bubbleYouTextPicker)}  
                   className="setting-row half">
@@ -671,7 +671,7 @@ const ColorPickerPage = () => {
                   </div>
                 )}
               </div>
-              <div>
+              <div style={{position: 'relative'}}>
                 <div
                   onClick={() => setBubbleMeTextPicker(!bubbleMeTextPicker)}  
                   className="setting-row half">
